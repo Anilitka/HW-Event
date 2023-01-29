@@ -1,0 +1,98 @@
+.container{
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+}
+.block h1{
+    font-size: 55px;
+}
+.btns {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 2px solid #ededed;
+    border-radius: 8px;
+    width: 150px;
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.first{
+    border: 3px solid rgb(0, 158, 0);
+}
+.btn2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 2px solid #ededed;
+    border-radius: 8px;
+    width: 150px;
+    height: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.second{
+    border: 3px solid rgb(189, 0, 0);
+}
+.btn3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 2px solid #ededed;
+    border-radius: 8px;
+    width: 150px;
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.third{
+    border: 3px solid rgb(255, 221, 0);
+}
+.myicon1 {
+    color: rgb(222, 187, 14);
+    opacity: 0;
+}
+.myicon2 {
+    color: rgb(222, 187, 14);
+    opacity: 0;
+}
+.myicon3 {
+    color: rgb(222, 187, 14);
+    opacity: 0;
+}
+.newicon1{
+    opacity: 1;
+}
+.newicon2{
+    opacity: 1;
+}
+.newicon3{
+    opacity: 1;
+}
+
+
+
